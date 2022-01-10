@@ -8,28 +8,21 @@ It is a static site, hosted on S3 with CloudFront caching. It is publicly access
 
 * 2011/5 Site appears to be accessible at <http://cjsm.justice.gov.uk/> as captured by [Wayback Machine](https://web.archive.org/web/2020*/cjsm.justice.gov.uk)
 
-* 2014/2 PHP site was flattened into a static site, re-hosted on S3+CloudFront, in the DSD AWS account 880656497252, bucket "cjsm.justice.gov.uk". The files were into copied into GitHub <https://github.com/ministryofjustice/CJSM-2014/> but without CI/CD that became out of date, and the repo was archived (some time before 2021/12)
+* 2014/2 PHP site was flattened into a static site, re-hosted on S3+CloudFront, in the DSD AWS account 880656497252, bucket "cjsm.justice.gov.uk". The files were into copied into GitHub <https://github.com/ministryofjustice/CJSM-2014/> but without CI/CD that became out of date, and the repo was archived (some time before 2021/12). There was a contact form that POSTed to http://cjsm.dsd.io/contact/enquiries.php, which must have stopped working around then, when the PHP site was decommissioned.
 
 * 2022/1 DR copied the S3 files to a fresh GitHub repo <https://github.com/ministryofjustice/cjsm>
 
 ## Deployment
 
-Currently there is no CI/CD - this is currently just a copy of the files in S3, manually synced.
+This repo is served by GitHub Pages, at https://ministryofjustice.github.io/cjsm with a view to getting the domain name cjsm.justice.gov.uk pointing there.
 
-### Manual sync to S3
+## Domain names
 
-Setup manual sync:
+DNS setup is in DSD account, Route53:
 
-1. Clone this repo:
-
-       cd ~/
-       git clone git@github.com:ministryofjustice/cjsm.git
-
-Manual sync:
-
-1. Log into AWS console for DSD account "MoJ Digital Services" 880656497252: https://moj.awsapps.com/start#/
-2. Copy and paste the command-line credentials into your local terminal
-3. Sync the files from your local clone:
-
-       cd ~/cjsm/cjsm.justice.gov.uk
-       aws s3 sync ./ s3://cjsm.justice.gov.uk
+* cjsm.justice.gov.uk NS -> Route53
+* cjsm.justice.gov.uk SOA -> Route53
+* cjsm.justice.gov.uk A -> Cloudfront property
+* www.cjsm.justice.gov.uk A -> Cloudfront property
+* <hex>.cjsm.justice.gov.uk CNAME -> <hex> (ACM validation record)
+* <hex>.www.cjsm.justice.gov.uk CNAME -> <hex> (ACM validation record)
