@@ -1,0 +1,1982 @@
+/*
+------------------------------------------
+CJSM Microsite Base Styles
+Author: David Galovic
+Version: 13/09/2005
+------------------------------------------ */
+
+/* Structure
+------------------------------------------ */
+
+html { 
+	min-width: 760px;
+}
+	 
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;	
+	background: #DCDCDC;
+	font: 12px/16px Arial, Helvetica, Verdana, sans-serif;
+}
+
+div#wrapper	{
+	color: #000;
+	background: #FFF;
+	width: 760px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+	
+div#header {
+	background: #FFF url(../images/cjs_logo.gif) top right no-repeat;
+	height: 85px;
+	width: 760px;
+	padding: 0;
+	margin: 0;
+}
+
+div#topnav {
+	width: 760px;
+	height: 34px;
+	background: #FFF url(../images/topnav_bg.gif) top left repeat-x;
+}
+
+div#main {
+	background: #FFF url(../images/main_bg.gif) top left repeat-x;
+	width: 750px;
+	padding: 0 5px;
+	margin: 0;
+}
+
+div#sidebar	{
+	margin: 0;
+	padding: 46px 0 0 0;
+	width: 189px;
+	float: left;
+}
+
+div#sidebar_right	{
+	padding: 46px 0 0 0;
+	width: 189px;
+	float: right;
+}
+
+
+div#why-related-links {
+	margin-top: 60px;
+}
+
+div#what-related-links {
+	margin-top: 181px;
+}
+
+div#what-features-related-links {
+	margin-top: 104px;
+}
+
+div#admin-related-links {
+	margin-top: 90px;
+}
+
+div#signup-related-links {
+	margin-top: 70px;
+}
+
+div#training-related-links {
+	margin-top: 0;
+}
+
+div#contact-related-links {
+	margin-top: 40px;
+}
+
+div#training-guides {
+}
+
+div#maincontent	{
+	width: 559px;
+	padding: 18px 0 0 0; /* should be 8px for IE. Will have to use a hack */
+	margin: 0 0 40px 0;
+	/* False margin value for all versions of IE Win, including 6.0 */	
+	margin-left: 186px;
+}
+
+div#maincontent_left {
+	padding: 18px 0 0 0; /* should be 8px for IE. Will have to use a hack */
+	width: 559px;
+	float: left;
+}
+
+html>body div#maincontent {
+	/* Correct value for browsers that don't suffer from IE Win's bugs */
+	margin-left: 190px;
+	min-height: 400px;
+}
+
+div#content {
+	width: 559px;
+	margin: 2px 0 0 0;
+	float: right;
+	background: #EFEFEF url(../images/content_bg.gif) top left repeat-y;
+}
+
+div#content-no-width {
+	margin: 2px 0 0 0;
+	float: right;
+	background: #EFEFEF url(../images/content_bg.gif) top left repeat-y;
+}
+
+#contact-overview div#content {
+	margin-top: 0;	
+}
+
+div#content-corner {
+	height: 7px;
+	width: 559px;
+	margin: 0 0 0 0;
+	padding: 0;
+	background: url(../images/content_corner.gif) top left no-repeat;
+	clear: both;
+}
+
+div#content-no-width {
+	width: 186px;
+	margin: 0 0 0 0;
+	float: right;
+	background: #EFEFEF url(../images/content_bg.gif) top left repeat-y;
+}
+
+div#content-single-column {
+	background-color: #FFF;
+	margin: 0 8px 29px 8px;
+	padding: 8px;
+	border-bottom: 1px solid #CCC;
+}
+
+.content-single-column-dotted {
+	margin: 8px 8px 6px 8px;
+	padding: 8px;
+	clear: both;
+	background: #FFF url(../images/dotted_line.gif) bottom left repeat-x;
+}
+
+.content-single-column-nospace {
+	margin: 0px 8px 6px 8px;
+	padding: 8px;
+	background: #FFF url(../images/dotted_line.gif) bottom left repeat-x;
+}
+
+.content-double-column {
+	background-color: #FFF;
+	/* False margin value for all versions of IE Win, including 6.0 */	
+	margin: 0 0 29px 4px;
+	padding: 8px;
+	float: left;
+	width: 344px;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.training_main {
+	width: 755px;
+	height: 600px;
+	padding: 0px 0px 0px 2px;
+	margin: 0;
+	background: url(../images/main_bg.gif) top left repeat-x;
+/*	border: solid red;*/
+}
+
+
+.training_column{
+	margin: 2px 3px 2px 3px;
+	padding: 0px;
+	padding: 0px;
+	float: left;
+	background-color: transparent;
+/*	border: thin solid red;*/
+
+
+}
+
+.training_column h1 {
+	font: 13px  Arial, Helvetica, Verdana, sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	padding: 10px 0 0 10px;
+	margin: 0;
+	height: 38px;
+	width: auto;
+	background: url(../images/blue_heading_back.jpg) top left no-repeat;
+
+}
+
+.training_image{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+div#training_demo_image{
+	margin: 0px;
+	padding: 0px;
+	width: 180px;
+	height: 59px;
+	background: url(../images/training-demo-image.jpg) top left repeat;
+	
+}
+
+div#training_online_image{
+	margin: 0px;
+	padding: 0px;
+	width: 368px;
+	height: 59px;
+	background: url(../images/training-online-image.jpg) top left repeat;
+	
+}
+
+
+div#training_main_block{
+	margin: 15px 0px 0px 0px;
+	width: 554px;
+/*	border: thin solid green;*/
+
+}
+
+
+#training_main_block h1{
+	font: 18px  Arial, Helvetica, Verdana, sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	padding: 15px 0 0 10px;
+	margin: 0;
+	height: 38px;
+	background: url(../images/training_orange_heading.jpg) top left no-repeat;
+
+}
+
+
+div#training_guide_block{
+	margin: 40px 0px 5px 0px;
+	padding: 0px;
+	width: 186px;
+/*	border: thin solid red;*/
+
+}
+
+#training_guide_block h1{
+	font: 13px  Arial, Helvetica, Verdana, sans-serif;
+	font-weight: bold;
+	color: #7C2522;
+	padding: 5px 0 0 10px;
+	margin: 0;
+	height: 26px;
+	background: url(../images/training_guide_heading.jpg) top left no-repeat;
+
+}
+
+
+.training_guide_content_text_bg{
+	margin: 0px;
+	height: 138px;
+	background: url(../images/training_guide_content_frame.jpg) top left no-repeat;
+
+}
+
+
+.training_guide_para{
+	margin: 0px;
+	font: 12px  Arial, Helvetica, Verdana, sans-serif;
+	color: #666666;
+	padding: 15px 0 0 15px;
+	float: left;
+
+
+}
+
+
+.training_guide_pdf{
+        margin: 0px;
+        padding: 0px 0px 8px 27px;
+        background: url(../images/training_pdf_icon.jpg) top left no-repeat;
+
+}
+
+.training_guide_pdf a{
+        margin: 0px;
+        padding: 0px;
+        color: #11568D;
+
+}
+
+
+div#training_demo_block{
+	margin: 0px;
+	width: 180px;
+
+}
+
+div#training_online_block{
+	margin: 0px;
+	width: 368px;
+
+}
+
+div#traning_help_block{
+	margin: 0px;
+	width: 186px;
+
+}
+
+
+
+div#traning_get_adobe_block {
+	margin: 0px;
+	padding: 15px 0px 0px 15px;
+	width: auto;
+
+}
+
+
+
+
+div#training_para_type1{
+	margin: 0px;
+	font: 12px  Arial, Helvetica, Verdana, sans-serif;
+	color: #666666;
+	padding: 10px 0 0 10px;
+	height: 43px;
+	background: url(../images/training_text_back1.gif) top left repeat;
+
+}
+
+div#training_para_type2{
+	margin: 0px;
+	font: 12px  Arial, Helvetica, Verdana, sans-serif;
+	color: #666666;
+	padding: 10px 10px 10px 10px;
+	background-color: #E7EEF3;
+
+}
+
+
+
+
+
+div#training_line_back{
+	margin: 0px;
+	height: 17px;
+	padding: 0px;
+	background: url(../images/training_line_back.gif) top left repeat-x;
+}
+
+.training_related_link_button_bg {
+	background: url(../images/training_line_blue.gif) top right no-repeat;
+	height: 34px;
+	padding: 10px 10px 0px 10px;
+}
+
+.training_button_small {
+	width: 104px;
+	height: 25px;
+	line-height: 25px;
+	display: block;
+	float: right;
+
+	background-image: url(../images/nav_small_plain.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	
+	text-indent: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	color: #11568D;
+}
+
+
+
+
+
+
+
+
+
+.feature-block {
+	width: 557px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#content-bottom {
+	height: 0;
+	margin: 0;
+	padding: 16px 0 5px 0;
+	clear: right;
+}
+
+div#why-benefits-buttons {
+	margin-left: 1px;
+	float: left;
+	background-color: #EFEFEF;
+}
+
+.why-benefits-content {
+	margin: 0;
+	padding: 17px;
+	width: 323px;
+	height: 576px;
+	float: left;
+	background: #F9CB71 url("../images/why_benefits_content_top_bg.gif") top left no-repeat;
+}
+
+.why-benefits-content-bottom {
+	margin: 0 0 29px 0;
+	width: 357px;
+	height: 10px;
+	float: left;
+	background: #F9CB71 url("../images/why_benefits_content_bottom_bg.gif") bottom left no-repeat;
+} 
+
+.why-benefits-column {
+	width: 307px;
+	padding: 14px 8px;
+	background: #FFF url("../images/why_benefits_column_top_bg.gif") top left no-repeat;
+}
+
+.why-benefits-column-bottom {
+	height: 10px;
+	width: 323px;
+	margin-bottom: 10px;
+	background: #FFF url("../images/why_benefits_column_bottom_bg.gif") bottom left no-repeat;
+}
+
+div#demo-heading {
+	width: 100%
+}
+
+div#demo-content {
+	padding-top: 18px;	
+}
+
+div#demo {
+	background-color: #CECECE;
+	border-top: 1px solid #858585;
+	border-right: 1px solid #858585;
+	border-left: 1px solid #858585;
+	height: 700px;
+	width: 746px;
+	margin-top: 10px;
+}
+
+div#demo-small {
+	background-color: #CECECE;
+	border-top: 1px solid #858585;
+	border-right: 1px solid #858585;
+	border-left: 1px solid #858585;
+	height: 590px;
+	width: 746px;
+	margin-top: 10px;
+}
+
+div#demo-bottom-1 {
+	height: 75px;
+	width: 748px;
+	background: url(../images/demo_bottom_bg_1.gif) top left no-repeat;
+}
+
+div#demo-bottom-2 {
+	height: 75px;
+	width: 748px;
+	background: url(../images/demo_bottom_bg_2.gif) top left no-repeat;
+}
+
+div#demo-bottom-3 {
+	height: 75px;
+	width: 748px;
+	background: url(../images/demo_bottom_bg_3.gif) top left no-repeat;
+}
+
+div#demo-bottom-4 {
+	height: 75px;
+	width: 748px;
+	background: url(../images/demo_bottom_bg_4.gif) top left no-repeat;
+}
+
+div#demo-bottom-5 {
+	height: 75px;
+	width: 748px;
+	background: url(../images/demo_bottom_bg_5.gif) top left no-repeat;
+}
+
+
+.feature-button {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 272px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	text-indent: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	text-decoration: none;
+	vertical-align: middle;
+	color: #11568D;
+	background-image: url(../images/feature_plain_half.gif);
+}
+
+
+.feature-button-right {
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 272px;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        text-indent: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: left;
+        text-decoration: none;
+        vertical-align: middle;
+        color: #11568D;
+        background-image: url(../images/feature_plain_half.gif);
+}
+
+
+.feature-button:hover {
+	text-decoration: none;
+	background-image: url(../images/feature_hover_half.gif);
+}
+
+.feature-button-right:hover {
+        text-decoration: none;
+        background-image: url(../images/feature_hover_half.gif);
+}
+
+
+.button-bar {
+	height: 25px;
+	width: 549px;
+	margin-left: 6px;
+	margin-bottom: 6px;
+}
+.feature-162-button {
+	float: left;
+	margin: 0;
+	padding: 0px 4px 0px 0px;
+	width: 162px;
+	height: 25px;
+	line-height: 25px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	text-indent: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	color: #11568D;
+	background-image: url(../images/nav_162_plain.gif);
+}
+
+.feature-162-button:hover {
+	text-decoration: none;
+	background-image: url(../images/nav_162_selected.gif);
+}
+
+.selected .feature-162-button {
+	text-decoration: none;
+	background-image: url(../images/nav_162_selected.gif);
+}
+	
+.feature-212-button {
+	float: left;
+	margin: 0;
+	padding: 0px 4px 0px 0px;
+	width: 212px;
+	height: 25px;
+	line-height: 25px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	text-indent: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	color: #11568D;
+	background-image: url(../images/nav_212_plain.gif);
+}
+
+.feature-212-button:hover {
+	text-decoration: none;
+	background-image: url(../images/nav_212_selected.gif);
+}
+
+.selected .feature-212-button {
+	text-decoration: none;
+	background-image: url(../images/nav_212_selected.gif);
+}
+
+.feature-button-full-desc-auto {
+	float: left;
+	margin: 0 6px 6px 0;
+	padding: 0;
+	width: 272px;
+	display: block;
+	background-image: url(../images/feature_plain_fill.gif);
+	background-repeat: repeat-y;
+	background-position: bottom left;
+	
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	color: #666666;
+	
+	border-bottom: 1px solid #A2A4A5;
+}
+
+.feature-button-full-desc-fixed {
+	float: left;
+	margin: 0 0 6px 0;
+	padding: 0;
+	width: 272px;
+	display: block;
+	background-image: url(../images/feature_plain_fill.gif);
+	background-repeat: repeat-y;
+	background-position: bottom left;
+	
+	
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	color: #666666;
+	
+	border-bottom: 1px solid #A2A4A5;
+}
+
+.feature-button-content {
+	padding: 0 10px 0 10px;
+	width: 252px;
+}
+
+.feature-button-column {
+	background-color: #FFF;
+	margin: 0 8px 0 1px;
+	padding: 10px;
+	min-height: 120px;
+}
+
+#feature-what-submenu-wide {
+	margin: 0;
+	padding: 0;
+	width: 272px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	float: left;
+
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	
+	text-indent: 10px;
+	
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	color: #11568D;
+}
+
+#feature-what-submenu-wide a {
+	background-image: url(../images/feature_plain_wide.gif);
+}
+
+#feature-what-submenu-wide a:hover {
+	background-image: url(../images/feature_hover_wide.gif);
+}
+
+.button-small {
+	width: 104px;
+	height: 25px;
+	line-height: 25px;
+	display: block;
+	float: left;
+
+	background-image: url(../images/nav_small_plain.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	
+	text-indent: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	color: #11568D;
+}
+
+.button-small:hover {
+	background-image: url(../images/nav_small_selected.gif);
+	text-decoration: none;
+}
+
+.button-small-back {
+	width: 104px;
+	height: 25px;
+	line-height: 25px;
+	display: block;
+	float: left;
+
+	background-image: url(../images/nav_small_back_plain.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	
+	text-indent: 40px;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	color: #11568D;
+}
+
+.button-small-back:hover {
+	background-image: url(../images/nav_small_back_selected.gif);
+	text-decoration: none;
+}
+
+.button-medium {
+	width: 185px;
+	height: 25px;
+	line-height: 25px;
+	display: block;
+	float: left;
+
+	background-image: url(../images/nav_medium_plain.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	
+	text-indent: 10px;
+	
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	color: #11568D;
+}
+
+.button-medium:hover {
+	background-image: url(../images/nav_medium_selected.gif);
+	text-decoration: none;
+}
+
+.button-feature-wide
+{
+	width: 548px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0px 0px 8px 1px;
+	display: block;
+	background: url(../images/feature_plain_wide.gif) bottom left no-repeat;
+	text-indent: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	color: #11568D;
+}
+
+.button-feature-wide:hover
+{
+	background-image: url(../images/feature_hover_wide.gif);
+	text-align: left;
+	text-decoration: none;
+}
+
+.button-feature-wide-float
+{
+	width: 548px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0px 0px 8px 1px;
+	display: block;
+	float: left;
+	background: url(../images/feature_plain_wide.gif) bottom left no-repeat;
+	text-indent: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	color: #11568D;
+}
+
+.button-feature-wide-float:hover
+{
+	background-image: url(../images/feature_hover_wide.gif);
+	text-align: left;
+	text-decoration: none;
+}
+
+.button-feature-smaller-text
+{
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #11568D;
+}
+
+html>body .content-double-column {
+	/* Correct value for browsers that don't suffer from IE Win's bugs */
+	margin-left: 8px;
+}
+
+.content-links {
+	margin: 0px 8px 6px 8px;
+
+	background: #FFF url(../images/dotted_line.gif) bottom left repeat-x;
+}
+
+.content-links-nospace {
+	margin: 0px 8px 0px 8px;
+	padding: 0;
+	background: #FFF url(../images/dotted_line.gif) bottom left repeat-x;
+}
+
+div#testimonial {
+	margin: 0 8px 29px 373px;
+	width: 173px;
+}
+
+html>body div#testimonial {
+	/* Correct value for browsers that don't suffer from IE Win's bugs */
+	width: 176px;
+}
+
+div#footernav	{
+	clear: both;
+	width: 760px;
+	height: 45px;
+	margin: 20px 0 0 0;
+	background: #FFF url(../images/footer_bg.gif) top left repeat-x;
+}
+
+.related-docs {
+	width: 187px;
+}
+
+
+.related-link {
+	width: 187px;
+}
+
+.related-link-image-1 {
+	background: #E7EEF3 url(../images/related_link_bg1.gif) top left no-repeat;
+	min-height: 105px;
+	padding-bottom: 8px;
+}
+
+.related-link-image-2 {
+	background: #FFF url(../images/related_link_bg2.gif) top left no-repeat;
+	min-height: 105px;
+	padding-bottom: 8px;
+}
+
+.related-link-image-3 {
+	background: #FFF url(../images/related_link_bg3.gif) top left no-repeat;
+	min-height: 105px;
+	padding-bottom: 8px;
+}
+
+.related-link-image-4 {
+	background: #FFF url(../images/related_link_bg4.gif) top left no-repeat;
+	min-height: 105px;
+	padding-bottom: 8px;
+}
+
+.related-link-image-5 {
+	background: #FFF url(../images/related_link_bg5.gif) top left no-repeat;
+	min-height: 105px;
+	padding-bottom: 8px;
+}
+
+.related-link-image-6 {
+	background: #FFF url(../images/related_link_bg6.gif) top left no-repeat;
+	min-height: 105px;
+	padding-bottom: 8px;
+}
+
+.related-link-image-7 {
+	background: #FFF url(../images/related_link_bg7.gif) top left no-repeat;
+	min-height: 105px;
+	padding-bottom: 8px;
+}
+
+.related-link-image-8 {
+	background: #FFF url(../images/related_link_bg8.gif) top left no-repeat;
+	min-height: 105px;
+	padding-bottom: 8px;
+}
+
+.related-link-image-9 {
+	background: #FFF url(../images/related_link_bg9.gif) top left no-repeat;
+	min-height: 105px;
+	padding-bottom: 8px;
+}
+
+.related-link-image-10 {
+	background: #FFF url(../images/related_link_bg10.gif) top left no-repeat;
+	min-height: 105px;
+	padding-bottom: 8px;
+}
+
+#what-feature-buttons {
+	margin: 0 0 0 4px;
+}	
+
+/* Typography
+------------------------------------------ */
+
+p, label, ul, li, dt, dd {
+	color: #666;
+}
+
+dl {
+	margin-top: 0;
+	padding: 0;
+}
+
+dt {
+	font-weight: bold;
+	background: url(../images/dotted_line.gif) top left repeat-x;
+	padding-top: 10px;
+	width: 150px;
+	float: left;
+	min-height: 40px;	
+}
+
+dd {
+	margin: 0 0 10px 150px;
+	padding-top: 10px;
+	background: url(../images/dotted_line.gif) top left repeat-x;
+	min-height: 40px;
+}
+
+h1 {
+	font: 18px  Arial, Helvetica, Verdana, sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	padding: 15px 0 0 10px;
+	margin: 0;
+	height: 38px;
+	width: 549px;
+	background: url(../images/feature_heading_bg.jpg) top left no-repeat;
+}
+
+h2 {
+	font: 14px/14px  Arial, Helvetica, Verdana, sans-serif;
+	font-weight: bold;
+	color: #7C2522;
+	margin: 0;
+	padding: 9px 0 16px 10px;
+	background: url(../images/h2_bg.gif) top left repeat-x;
+}
+
+h3 {
+	font: 12px  Arial, Helvetica, Verdana, sans-serif;
+	font-weight: bold;
+	color: #666;
+}
+
+h4 {
+	font: 12px  Arial, Helvetica, Verdana, sans-serif;
+	font-weight: bold;
+	color: #666;
+}
+
+ul {
+	list-style-type: square;
+}
+
+div#testimonial p {
+	font-size: 11px;
+	line-height: 14px;
+	color: #333;
+	margin: 10px 0 15px 0;
+}
+
+div#testimonial h3, .related-link h3, related-docs h3, .content-single-column-dotted h3, .why-benefits-column h3 {
+	color: #7C2522;
+	margin: 0;
+}
+
+.content-single-column-dotted h4 {
+	color: #7C2522;
+	margin: 0;
+	background: url(../images/content_h4_bg.gif) top left repeat-x;
+	line-height: 33px;
+}
+
+div#testimonial p, div#testimonial h3 {
+	background-color: #FCC251;
+	padding: 10px;
+	margin-bottom: -6px;
+}
+
+.related-link h3 {
+	padding: 10px 0 5px 10px;
+	height: 15px;
+	margin: 0;
+	background: url(../images/related_link_heading_bg.gif) top left no-repeat;
+}
+
+.related-docs h3 {
+	padding: 10px 0 5px 10px;
+	height: 15px;
+	margin: 0;
+	background: url(../images/related_link_heading_bg.gif) top left no-repeat;
+}
+
+
+.related-link p {
+	color: #666;
+	margin: 0;
+	padding: 10px 10px 0 70px;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+.related-docs p {
+	color: #666;
+	margin: 0;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+
+#demo-heading a {
+	float: right;
+	margin-top: -30px;
+}
+
+div#demo-content h2 {
+	background: url(../images/h2_demo_bg.gif) top left repeat-x;
+	width: 738px;
+	margin-top: 2px;
+	padding: 9px 0 10px 10px;
+}
+
+#demo-content h2 {
+	
+}
+
+.content-single-column-dotted h3, .why-benefits-column h3 {
+	background: url(../images/dotted_line.gif) bottom left repeat-x;
+	padding-bottom: 10px;	
+}
+
+#glossary h3 {
+	background: none;
+}
+
+.bold {
+	font-weight: bold;	
+}
+
+.small-button-text {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#access-key-list {
+	list-style: none;	
+}
+
+
+/* Links
+------------------------------------------ */
+
+a {
+	font-weight: bold;
+	color: #FF9900;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+a:hover {
+	text-decoration: underline;		
+}
+
+#glossary-links {
+	font-weight: bold;
+	color: #666;
+}
+
+ul li a, #glossary-links a {
+	color: #11568C;	
+}
+
+ul li a:hover, #glossary-links a:hover {
+	font-weight: bold;
+	color: #FF9900;
+	text-decoration: none;	
+}
+
+#topnav a {
+	color: #FFF;
+}
+
+#topnav a:hover {
+	color: #FEAD33;
+	text-decoration: none;
+}
+
+#footernav a {
+	color: #666;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#footernav a:hover {
+	color: #FF9900;
+	text-decoration: none;
+}
+
+.related-link-button-bg {
+	background: url(../images/related_link_button_bg.gif) top left no-repeat;
+	height: 47px;
+	width: 187px;
+	padding-top: 11px;
+}
+
+.functional-link {
+	color: #11568C;
+	font-size: 11px;
+	background: url(../images/functional_link_bg.gif) right no-repeat;
+	padding-right: 12px;
+	margin-left: 509px;
+	line-height: 18px;
+	clear: both;
+}
+
+.functional-link-wrapper {
+	margin-top: 28px;
+}
+
+.functional-link:hover {
+	color: #FF9900;	
+	text-decoration: none;
+	background: url(../images/functional_link_over_bg.gif) right no-repeat;
+	text-align: right;
+}
+
+#demo-bottom-1 a, #demo-bottom-2 a, #demo-bottom-3 a, #demo-bottom-4 a, #demo-bottom-5 a {
+	float: right;
+	margin: 13px 20px 0 0;	
+}
+
+
+/* Feature Images
+------------------------------------------ */
+
+div#feature, div#feature-overview {
+	margin-bottom: 8px;
+	
+}
+
+#feature-overview p {
+	display: none;
+}
+
+.highlight {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+#feature-why-overview {
+	height: 140px;
+	width: 559px;
+}
+
+#feature-what-overview {
+	height: 255px;
+	width: 559px;
+	padding: 6px 0 0 0;
+	background: url(../images/feature_what_overview.jpg) top left no-repeat;
+}
+
+#feature-admin-overview {
+	height: 140px;
+	width: 559px;
+}
+
+#feature-training-image{
+	height: 140px;
+	width: 559px;
+}
+
+#feature-what-text {
+	width: 420px;
+	margin: 8px 0 8px 10px;	
+}
+
+#feature-what-text p {
+	margin: 0;
+}
+
+#feature-training-overview {
+	height: 144px;
+	width: 555px;
+	padding: 6px 0 0 4px;
+	background: url(../images/feature_training_overview.gif) top left no-repeat;
+}
+
+
+
+/* Top Navigation List
+------------------------------------------ */
+
+div#topnav ul {
+	padding: 9px 0 0 10px;
+	list-style: none;
+	margin: 0;
+}
+
+div#topnav li {
+	color: #FFF;
+	float: left;
+}
+
+
+/* Footer Navigation List
+------------------------------------------ */
+
+div#footernav ul {
+	padding: 11px 0 0 10px;
+	list-style: none;
+	margin: 0;
+}
+
+div#footernav li {
+	font-size: 11px;
+	color: #666;
+	float: left;
+}
+
+
+/* Horizontal Button Menu
+------------------------------------------ */
+
+#horizontal-menu
+{
+}
+
+#horizontal-menu ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#horizontal-menu li
+{
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center
+}
+
+#horizontal-menu li a, #horizontal-menu li a span, #horizontal-menu li a:hover, #horizontal-menu li a:hover span
+{
+	line-height: 25px;
+	display: block;
+	float: left;
+
+	width: auto;
+	background-repeat: no-repeat;
+
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	color: #11568D;
+}
+
+#horizontal-menu li a
+{
+	background-image: url(../images/nav_plain_left.gif);
+	background-position: bottom left;
+	padding-left: 10px;
+}
+
+#horizontal-menu li a span
+{
+	background-image: url(../images/nav_plain_right.gif);
+	background-position: bottom right;
+	padding-right: 30px;
+}
+
+#horizontal-menu li a:hover
+{
+	background-image: url(../images/nav_hover_left.gif);
+	background-position: bottom left;
+	padding-left: 10px;
+}
+
+#horizontal-menu li a:hover span
+{
+	background-image: url(../images/nav_hover_right.gif);
+	background-position: bottom right;
+	padding-right: 30px;
+}
+
+#horizontal-menu .selected a
+{
+	background-image: url(../images/nav_selected_left.gif);
+	background-position: bottom left;
+	padding-left: 10px;
+}
+
+#horizontal-menu .selected span
+{
+	background-image: url(../images/nav_selected_right.gif);
+	background-position: bottom right;
+	padding-right: 30px;
+}
+
+
+/* Vertical Button Menu
+------------------------------------------ */
+
+#vertical-menu
+{
+	margin: 0;
+	padding: 0;
+}
+
+#vertical-menu ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#vertical-menu li
+{
+	margin: 0 0 5px 0;
+	padding: 0;
+	text-align: center;
+}
+
+#vertical-menu li a, #vertical-menu li a:hover
+{
+	font-size: 11px;
+	line-height: 25px;
+	display: block;
+	width: 165px;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	color: #11568D;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#vertical-menu li a
+{
+	background-image: url(../images/nav_medium_plain.gif);
+}
+
+#vertical-menu li a:hover
+{
+	background-image: url(../images/nav_medium_selected.gif);
+}
+
+#vertical-menu li .nav-button-small
+{
+	background-image: url(../images/nav_small_plain.gif);
+}
+
+#vertical-menu li .nav-button-small:hover
+{
+	background-image: url(../images/nav_small_selected.gif);
+}
+
+/* Sitemap Navigation Menu
+------------------------------------------ */
+.sitemap
+{
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+.sitemap .first-level
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sitemap li a
+{
+	margin: 0 0 0 10px;
+	padding: 0 0 0 0;
+	line-height: 25px;
+	display: block;
+	background: url(../images/dotted_line.gif) bottom left repeat-x;
+	text-decoration: none;
+	
+	color: #11568D;
+}
+
+.sitemap .second-level
+{
+	list-style-image: url(../images/arrow_blue.gif);
+	margin: 0 0 0 30px;
+	padding: 0;
+}
+
+.sitemap .second-level a
+{
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+.sitemap .third-level
+{
+	list-style-image: none;
+	list-style: none;
+	margin: 0px 0px 0px 30px;
+	padding: 0;
+}
+
+.sitemap .third-level a
+{
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+.sitemap .forth-level
+{
+	list-style-image: none;
+	list-style: none;
+}
+
+.sitemap .forth-level a, .sitemap .forth-level a:hover {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	font-weight: normal;
+	background-image: none;
+}
+
+.sitemap .fifth-level
+{
+	list-style-image: none;
+	list-style: none;
+}
+
+.sitemap .fifth-level a, .sitemap .fifth-level a:hover
+{
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	font-weight: normal;
+	background-image: none;
+}
+
+/* Why Benefits Button Navigation
+------------------------------------------ */
+
+#why-benefits-buttons ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#why-benefits-buttons li {
+	width: 193px;
+	height: 116px;
+	margin: 0 0 10px 0;
+}
+
+#why-benefits-buttons li a {
+	width: 127px;
+	height: 36px;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	color: #FF9900;
+}
+
+#why-benefits-buttons li a:hover {
+	text-decoration: none;
+}
+
+#why-benefits-button-1 {
+	background: url("../images/benefits_button_1.gif") top left no-repeat;
+	padding: 40px 33px;
+}
+
+#why-benefits-button-2 {
+	background: url("../images/benefits_button_2.gif") top left no-repeat;
+	padding: 50px 33px 30px 33px;
+}
+
+#why-benefits-button-3 {
+	background: url("../images/benefits_button_3.gif") top left no-repeat;
+	padding: 35px 33px 35px 33px;
+}
+
+/* This css is for the classy browsers */
+html>body #why-benefits-button-3 {
+	padding-bottom: 45px;
+}
+
+#why-benefits-button-4 {
+	background: url("../images/benefits_button_4.gif") top left no-repeat;
+	padding: 35px 33px 35px 33px;
+}
+
+/* This css is for the classy browsers */
+html>body #why-benefits-button-4 {
+	padding-bottom: 45px;
+}
+
+#why-benefits-button-5 {
+	background: url("../images/benefits_button_5.gif") top left no-repeat;
+	padding: 50px 33px 30px 33px;
+}
+
+#why-benefits-button-1:hover {
+	background: url("../images/benefits_button_over_1.gif") top left no-repeat;
+}
+
+#why-benefits-button-2:hover {
+	background: url("../images/benefits_button_over_2.gif") top left no-repeat;
+}
+
+#why-benefits-button-3:hover {
+	background: url("../images/benefits_button_over_3.gif") top left no-repeat;
+}
+
+#why-benefits-button-4:hover {
+	background: url("../images/benefits_button_over_4.gif") top left no-repeat;
+}
+
+#why-benefits-button-5:hover {
+	background: url("../images/benefits_button_over_5.gif") top left no-repeat;
+}
+
+/* Why benefits down states */
+
+#why-benefits-hackers #why-benefits-button-1 {
+	background: url("../images/benefits_button_down_1.gif") top left no-repeat;
+	color: #7C2522;
+}
+
+#why-benefits-spam #why-benefits-button-2 {
+	background: url("../images/benefits_button_down_2.gif") top left no-repeat;
+	color: #7C2522;
+}
+
+#why-benefits-security #why-benefits-button-3 {
+	background: url("../images/benefits_button_down_3.gif") top left no-repeat;
+	color: #7C2522;
+}
+
+#why-benefits-procedures #why-benefits-button-4 {
+	background: url("../images/benefits_button_down_4.gif") top left no-repeat;
+	color: #7C2522;
+}
+
+#why-benefits-virus #why-benefits-button-5 {
+	background: url("../images/benefits_button_down_5.gif") top left no-repeat;
+	color: #7C2522;
+}
+
+
+/* Content Links
+------------------------------------------ */
+
+.content-links ul, .content-links-nospace ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.content-links-fit-row {
+	padding-right: 15px;
+	display: block;
+}
+
+.content-links li a, .content-links li a:hover, .content-links-nospace li a, .content-links-nospace li a:hover {
+	color: #11568D;
+	font-weight: bold;
+	line-height: 28px;
+	display: block;
+	width: 535px;
+	text-decoration: none;
+	padding: 0 0 0 8px;
+	font-size: 12px;
+}
+
+.content-links-heading {
+	color: #7F2A29;
+	font-weight: bold;
+	line-height: 28px;
+	display: block;
+	width: 533px;
+	text-decoration: none;
+	padding: 0 0 0 8px;
+}
+
+.content-links li a, .content-links-nospace li a
+{
+	background: url(../images/content_link_bg.gif) top left repeat-x;
+}
+
+.content-links li a:hover, .content-links-nospace li a:hover
+{
+	background: url(../images/content_link_over_bg.gif) top left repeat-x;
+}
+
+
+
+/* Navigation Selected Styles
+------------------------------------------ */
+
+/* Top Navigation */
+
+#why-overview #topnav-why, #why-benefits #topnav-why, #why-testimonials #topnav-why, #why-common-questions #topnav-why, #why-next-steps #topnav-why {
+	color: #FEAD33;
+}
+
+#why-benefits-hackers #topnav-why, #why-benefits-spam #topnav-why, #why-benefits-security #topnav-why, #why-benefits-procedures #topnav-why, #why-benefits-virus #topnav-why {
+	color: #FEAD33;
+}
+
+#what-overview #topnav-what, #what-features #topnav-what, #what-security-questions #topnav-what, #what-common-questions #topnav-what, #what-next-steps #topnav-what {
+	color: #FEAD33;
+}
+
+#admin-overview #topnav-admin, #admin-features #topnav-admin, #admin-security-questions #topnav-admin, #admin-common-questions #topnav-admin, #admin-key-features #topnav-admin, #admin-other-features #topnav-admin {
+	color: #FEAD33;
+}
+	
+#signup-overview #topnav-signup, #signup-how-to-apply #topnav-signup, #signup-apply-now #topnav-signup, #signup-register-interest #topnav-signup, #signup-tell-friend #topnav-signup {
+	color: #FEAD33;
+}
+
+#training-overview #topnav-training {
+	color: #FEAD33;
+}
+
+#contact-overview #topnav-contact, #contact-enquiries #topnav-contact, #contact-feedback #topnav-contact {
+	color: #FEAD33;
+}
+
+
+/* Side Navigation */
+
+#why-benefits #sidenav-benefits, #why-testimonials #sidenav-testimonials, #why-common-questions #sidenav-common-questions, #why-next-steps #sidenav-next-steps {
+	background-image: url(../images/nav_medium_selected.gif);
+}
+
+#why-benefits-hackers #sidenav-benefits, #why-benefits-spam #sidenav-benefits, #why-benefits-security #sidenav-benefits, #why-benefits-procedures #sidenav-benefits, #why-benefits-virus #sidenav-benefits {
+	background-image: url(../images/nav_medium_selected.gif);
+}
+	
+#what-features #sidenav-features, #what-security-questions #sidenav-security-questions, #what-common-questions #sidenav-common-questions, #what-next-steps #sidenav-next-steps {
+	background-image: url(../images/nav_medium_selected.gif);
+}
+
+#admin-features #sidenav-features, #admin-security-questions #sidenav-security-questions, #admin-common-questions #sidenav-common-questions, #admin-key-features #sidenav-features, #admin-other-features #sidenav-features {
+	background-image: url(../images/nav_medium_selected.gif);
+}
+
+#signup-how-to-apply #sidenav-how-to-apply, #signup-apply-now #sidenav-apply-now, #signup-register-interest #sidenav-register-interest, #signup-tell-friend #sidenav-tell-friend {
+	background-image: url(../images/nav_medium_selected.gif);
+}
+
+#signup-enquiries #sidenav-enquiries, #contact-feedback #sidenav-feedback {
+	background-image: url(../images/nav_medium_selected.gif);
+}
+
+#migration-faqs-smtp #sidenav-smtp-faqs, #migration-faqs-webmail #sidenav-webmail-faqs, #migration-faqs-admin #sidenav-admin-faqs {
+	background-image: url(../images/nav_medium_selected.gif);
+}
+
+/* Footer Navigation */
+
+#copyright #footernav-copyright, #privacy #footernav-privacy, #terms #footernav-terms, #access-keys #footernav-access-keys, #glossary #footernav-glossary, #sitemap #footernav-sitemap {
+	color: #FF9900;
+}
+
+/* Webmail Features Navigation */
+
+#webmail-interactive-training #interactive-training, #webmail-distribution-list #distribution-list, #webmail-group-mailbox #group-mailbox, #webmail-shared-folders #shared-folders, #webmail-search-features #search-features {
+	background: url(../images/content_link_over_bg.gif) top left repeat-x;
+}
+
+
+/* Miscillaneous Visual Styles
+------------------------------------------ */
+
+.image-wrapper {
+	background-color: #EFEFEF;
+	margin-left: 8px;
+	padding: 0px;
+	width: 360px;
+	height: 200px;
+}
+
+.block-wrapper {
+	margin: 10px 0px -20px 0px;
+	min-height: 170px;
+	padding: 0px;
+	float: left;
+}
+
+.what-features-wrapper {
+	float: left;	
+}
+
+img {
+	border: 0;
+}
+
+.start-quote {
+	margin-bottom: -2px;
+}
+
+.skip-link {
+	visibility: hidden;
+	display: none;
+}
+
+.termslist {
+	list-style-type: none;
+}
+
+/* Home Page Styles
+------------------------------------------ */
+
+.h1-small {
+	font-size: 16px;
+	font-weight: normal;	
+}
+
+#home-nav {
+	float: left;
+	padding: 46px 0 0 6px;
+}
+
+#home-feature {
+	float: left;
+	padding-top: 18px;
+	margin-bottom: 4px;
+}
+
+#home-feature p {
+	display: none;
+	visibility: hidden;
+}
+
+#home-content strong {
+	color: #7B2322;
+}
+
+.home-left-column-content {
+	float: left;
+	width: 182px;
+}
+
+.home-right-column-content {
+	width: 182px;
+	float: left;
+	margin-left: 4px;
+}
+
+.home-content-link {
+	font-size: 11px;
+	color: #666;
+	font-weight: normal;
+	display: block;
+	background: url(../images/home_content_link.gif) bottom right no-repeat;
+	padding: 10px;
+	background-color: #E7EEF3;
+	min-height: 112px;
+}
+
+.home-content-link:hover {
+	font-size: 11px;
+	color: #666;
+	font-weight: normal;
+	text-decoration: none;
+	display: block;
+	background: url(../images/home_content_link_over.gif) bottom right no-repeat;
+}
+
+.home-column-links {
+	padding: 10px;
+	float: left;
+	width: 162px;
+	min-height: 110px;
+	background: url(../images/home_links_bg.gif) top right repeat-y;
+}
+
+.home-column-side-links {
+	padding: 10px;
+	float: left;
+	width: 165px;
+	min-height: 110px;
+	background: url(../images/home_links_bg.gif) top right repeat-y;
+}
+
+
+.home-left-column-links {
+	padding: 10px;
+	background-color: #aaa;
+	width: 165px;
+}
+
+.home-right-column-links {
+	padding: 10px;
+	background-color: #aaa;
+	width: 165px;
+	margin: 0 0 0 184px;
+}
+
+#home-footer {
+	clear: both;
+	padding: 20px 10px 10px 10px;
+	background: url(../images/home_links_bottom_bg.gif) top left no-repeat;
+}
+
+#home-content p, #home-content ul, #home-content li {
+	font-size: 11px;
+	color: #666;
+}
+
+#home-content ul {
+	list-style-image: url(../images/arrow_orange.gif);
+	margin: 0 0 0 13px;
+	padding: 0;
+}
+
+#home-content li a  {
+	font-weight: bold;
+	color: #11568D;
+	font-size: 11px;
+}
+
+#home-content li a:hover  {
+	text-decoration: none;
+	color: #FF9900;
+}
+
+#home-footer h3 {
+	font-size: 11px;
+	color: #999;	
+}
+
+#home-footer p {
+	font-size: 10px;
+	color: #999;	
+}
+
+#home-column-left {
+	float: left;
+	width: 185px;
+	height: 389px;
+	margin: 0 6px 0 0;
+}
+
+#home-column-middle {
+	width: 368px;
+	height: 389px;
+	margin: 0 6px 0 0;
+	float: left;
+}
+
+#home-column-right {
+	width: 185px;
+	height: 389px;
+	float: left;
+}
+
+#home-column-left h2 {
+	background: url(../images/home-column-left-heading.jpg) top left no-repeat;
+	height: 100px;
+	width: 165px;
+	font-size: 12px;
+	color: #FFF;
+	padding: 24px 0 0 20px;
+}
+
+#home-column-middle h2 {
+	background: url(../images/home-column-middle-heading.jpg) top left no-repeat;
+	height: 100px;
+	width: 348px;
+	font-size: 12px;
+	color: #FFF;
+	padding: 24px 0 0 20px;
+}
+
+#home-column-right h2 {
+	background: url(../images/home-column-right-heading.jpg) top left no-repeat;
+	height: 100px;
+	width: 165px;
+	font-size: 12px;
+	color: #FFF;
+	padding: 24px 0 0 20px;
+}

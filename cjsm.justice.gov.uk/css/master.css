@@ -1,0 +1,26 @@
+/*
+-----------------------------------------------
+CJSM Microsite Screen Master
+Author:   David Galovic
+Version:  15 Sep 2005
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+@import url("base.css");
+@import url("forms.css");
+
+
+/* IE5/Mac Only Styles
+----------------------------------------------- */
+/*\*//*/
+  @import url("ie5mac.css");
+/**/
+
+
+
+/* IE5/Win Only Styles
+----------------------------------------------- */
+@media tty {
+ i{content:"\";/*" "*/}} @import url('ie5win.css'); /*";}
+}/* */

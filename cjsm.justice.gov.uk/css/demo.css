@@ -1,0 +1,381 @@
+/* General classes */
+
+div.orange {
+	border-width:4px;
+	border-style:solid;
+ 	border-color:#F7A72E;
+}
+
+div.blue {
+	border-width:4px;
+	border-style:solid;
+ 	border-color:#11568D;
+}
+
+div.hidden {
+	visibility:hidden;
+}
+
+div.visible {
+	visibility:visible;
+}
+
+
+/* Mailpage 1 */
+
+#mailpage1 #backgroundimage {
+	background: url(../images/demos/mail_screen1.gif) top left no-repeat;
+	height: 681px;
+	width: 722px;
+	margin: 14px 0 0 14px;
+}
+
+#mailpage1 #highlightdiv1 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -586px 0 0 151px;
+	height: 116px;
+	width: 200px;
+}
+
+#mailpage1 #infobox1 {	
+	background: url(../images/demos/mail_screen1_infobox1.jpg) top left no-repeat;
+	margin: -160px 0 0 268px;
+	height: 120px;
+	width: 300px;	
+}
+
+#mailpage1 #highlightdiv2 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -82px 0 0 585px;
+	height: 200px;
+	width: 66px;
+}
+
+#mailpage1 #infobox2 {
+	background: url(../images/demos/mail_screen1_infobox2.jpg) top left no-repeat;
+	margin: -56px 0 0 398px;
+	height: 140px;
+	width: 300px;	
+}
+
+#mailpage1 #highlightdiv3 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -70px 0 0 151px;
+	height: 45px;
+	width: 200px;
+}
+
+#mailpage1 #infobox3 {
+	background: url(../images/demos/mail_screen1_infobox3.jpg) top left no-repeat;
+	margin: -109px 0 0 92px;
+	height: 140px;
+	width: 300px;	
+}
+
+
+/* Mailpage 2 */
+
+#mailpage2 #backgroundimage {
+	background: url(../images/demos/mail_screen2.gif) top left no-repeat;
+	height: 681px;
+	width: 722px;
+	margin: 14px 0 0 14px;
+}
+
+#mailpage2 #highlightdiv1 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -516px 0 0 151px;
+	height: 133px;
+	width: 510px;
+}
+
+#mailpage2 #infobox1 {
+	background: url(../images/demos/mail_screen2_infobox1.jpg) top left no-repeat;
+	margin: -279px 0 0 400px;
+	height: 158px;
+	width: 285px;	
+}
+
+#mailpage2 #highlightdiv2 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: 164px 0 0 151px;
+	height: 134px;
+	width: 260px;
+}
+
+#mailpage2 #infobox2 {
+	background: url(../images/demos/mail_screen2_infobox2.jpg) top left no-repeat;
+	margin: -219px 0 0 396px;
+	height: 124px;
+	width: 301px;	
+}
+
+#mailpage2 #highlightdiv3 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: 135px 0 0 150px;
+	height: 133px;
+	width: 260px;
+}
+
+#mailpage2 #infobox3 {	
+	background: url(../images/demos/mail_screen2_infobox3.jpg) top left no-repeat;
+	margin: -149px 0 0 398px;
+	height: 118px;
+	width: 298px;	
+}
+
+
+/* Mailpage 3 */
+
+#mailpage3 #backgroundimage {
+	background: url(../images/demos/mail_screen3.gif) top left no-repeat;
+	height: 681px;
+	width: 722px;
+	margin: 14px 0 0 14px;
+}
+
+#mailpage3 #highlightdiv1 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -593px 0 0 553px;
+	height: 116px;
+	width: 161px;
+}
+
+#mailpage3 #infobox1 {	
+	background: url(../images/demos/mail_screen3_infobox1.jpg) top left no-repeat;
+	margin: -50px 0 0 280px;
+	height: 199px;
+	width: 295px;	
+}
+
+
+/* Searchpage 1 */
+
+#searchpage1 #backgroundimage {
+	background: url(../images/demos/search_screen1.gif) top left no-repeat;
+	height: 681px;
+	width: 722px;
+	margin: 14px 0 0 14px;
+}
+
+#searchpage1 #highlightdiv1 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -418px 0 0 166px;
+	height: 133px;
+	width: 260px;
+}
+
+#searchpage1 #infobox1 {	
+	background: url(../images/demos/search_screen1_infobox1.jpg) top left no-repeat;
+	margin: -253px 0 0 121px;
+	height: 136px;
+	width: 276px;	
+}
+
+#searchpage1 #highlightdiv2 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -24px 0 0 445px;
+	height: 133px;
+	width: 260px;
+}
+
+#searchpage1 #infobox2 {
+	background: url(../images/demos/search_screen1_infobox2.jpg) top left no-repeat;
+	margin: -255px 0 0 440px;
+	height: 135px;
+	width: 273px;	
+}
+
+
+/* Searchpage 2 */
+
+#searchpage2 #backgroundimage {
+	background: url(../images/demos/search_screen2.gif) top left no-repeat;
+	height: 681px;
+	width: 722px;
+	margin: 14px 0 0 14px;
+}
+
+#searchpage2 #highlightdiv1 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -472px 0 0 175px;
+	height: 389px;
+	width: 56px;
+}
+
+#searchpage2 #infobox1 {	
+	background: url(../images/demos/search_screen2_infobox1.jpg) top left no-repeat;
+	margin: -504px 0 0 4px;
+	height: 122px;
+	width: 272px;	
+}
+
+#searchpage2 #highlightdiv2 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: 15px 0 0 247px;
+	height: 360px;
+	width: 56px;
+}
+
+#searchpage2 #infobox2 {
+	background: url(../images/demos/search_screen2_infobox2.jpg) top left no-repeat;
+	margin: -83px 0 0 296px;
+	height: 100px;
+	width: 306px;	
+}
+
+#searchpage2 #highlightdiv3 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -408px 0 0 370px;
+	height: 21px;
+	width: 68px;
+}
+
+#searchpage2 #infobox3 {
+	background: url(../images/demos/search_screen2_infobox3.jpg) top left no-repeat;
+	margin: -146px 0 0 340px;
+	height: 129px;
+	width: 281px;	
+}
+
+#searchpage2 #highlightdiv4_1 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: 95px 0 0 313px;
+	height: 21px;
+	width: 347px;
+}
+
+#searchpage2 #highlightdiv4_2 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -29px 0 0 664px;
+	height: 21px;
+	width: 29px;
+}
+
+#searchpage2 #infobox4 {
+	background: url(../images/demos/search_screen2_infobox4.jpg) top left no-repeat;
+	margin: -134px 0 0 455px;
+	height: 125px;
+	width: 273px;	
+}
+
+#searchpage2 #highlightdiv5_1 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: 31px 0 0 313px;
+	height: 21px;
+	width: 347px;
+}
+
+#searchpage2 #highlightdiv5_2 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -29px 0 0 664px;
+	height: 21px;
+	width: 29px;
+}
+
+#searchpage2 #infobox5 {
+	background: url(../images/demos/search_screen2_infobox5.jpg) top left no-repeat;
+	margin: -24px 0 0 453px;
+	height: 129px;
+	width: 275px;	
+}
+
+
+/* Folderpage 1 */
+
+#folderpage1 #backgroundimage {
+	background: url(../images/demos/folders_screen1.gif) top left no-repeat;
+	height: 565px;
+	width: 731px;
+	margin: 14px 0 0 6px;
+}
+
+#folderpage1 #highlightdiv1 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -162px 0 0 162px;
+	height: 66px;
+	width: 320px;
+}
+
+#folderpage1 #infobox1 {	
+	background: url(../images/demos/folders_screen1_infobox1.jpg) top left no-repeat;
+	margin: -44px 0 0 365px;
+	height: 123px;
+	width: 305px;	
+}
+
+#folderpage1 #highlightdiv2 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -350px 0 0 550px;
+	height: 200px;
+	width: 66px;
+}
+
+#folderpage1 #infobox2 {	
+	background: url(../images/demos/folders_screen1_infobox2.jpg) top left no-repeat;
+	margin: -186px 0 0 292px;
+	height: 119px;
+	width: 297px;	
+}
+
+
+/* Folderpage 2 */
+
+#folderpage2 #backgroundimage {
+	background: url(../images/demos/folders_screen2.gif) top left no-repeat;
+	height: 565px;
+	width: 731px;
+	margin: 14px 0 0 6px;
+}
+
+#folderpage2 #highlightdiv1 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -416px 0 0 285px;
+	height: 116px;
+	width: 200px;
+}
+
+#folderpage2 #infobox1 {	
+	background: url(../images/demos/folders_screen2_infobox1.jpg) top left no-repeat;
+	margin: -156px 0 0 429px;
+	height: 113px;
+	width: 296px;	
+}
+
+#folderpage2 #highlightdiv2 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: 44px 0 0 487px;
+	height: 116px;
+	width: 200px;
+}
+
+#folderpage2 #infobox2 {	
+	background: url(../images/demos/folders_screen2_infobox2.jpg) top left no-repeat;
+	margin: -102px 0 0 208px;
+	height: 109px;
+	width: 293px;	
+}
+
+
+/* Folderpage 3 */
+
+#folderpage3 #backgroundimage {
+	background: url(../images/demos/folders_screen3.gif) top left no-repeat;
+	height: 565px;
+	width: 731px;
+	margin: 14px 0 0 6px;
+}
+
+#folderpage3 #highlightdiv1 {
+	background: url(../images/empty.gif) top left no-repeat;
+	margin: -436px 0 0 557px;
+	height: 160px;
+	width: 116px;
+}
+
+#folderpage3 #infobox1 {	
+	background: url(../images/demos/folders_screen3_infobox1.jpg) top left no-repeat;
+	margin: -22px 0 0 283px;
+	height: 152px;
+	width: 296px;	
+}

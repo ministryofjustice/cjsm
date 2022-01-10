@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<captivate_player autoplay="true" scalecontent="false" app="CJSM" welcome="swf/welcomePage.swf" version="1.0.0" home="swf/menu.swf" contact="08700 108 535" >
+<menu name="Overview">
+		<swf src="swf/overview/What_are_Secure_eMails.swf" name="What are CJSMs?" />
+		<swf src="swf/overview/How_to_join_the_service.swf" name="How to join the service" />
+		<swf src="swf/overview/new_format_logins_and_eMail_addresses.swf" name="New format logins and eMail addresses" />
+</menu>
+<menu name="Organisation Admin">
+		<menu name="Users & Organisations">
+			<swf src="swf/Org_Admin/Creating_a_single_user_account.swf" name="Creating & managing single user accounts" />
+			<swf src="swf/Org_Admin/Creating_and_managing_user_accounts_in_bulk.swf" name="Creating & managing user accounts in bulk" />
+			<swf src="swf/Org_Admin/Managing_users_and_passwords.swf" name="Managing users & passwords" />
+			<swf src="swf/Org_Admin/Inactive_mailbox_alert.swf" name="Inactive mailbox alerts" />
+			<swf src="swf/Org_Admin/Adding_and_removing_administrators.swf" name="Adding & removing administrators" />
+			<swf src="swf/Org_Admin/Updating_the_organisation_details.swf" name="Updating organisation details" />
+			<swf src="swf/Org_Admin/Creating_sub-organisations.swf" name="Creating sub-organisations" />
+		</menu>
+		<menu name="Directory & groups">
+			<swf src="swf/Org_Admin/Exporting_directory_data.swf" name="Exporting directory data" />
+			<swf src="swf/Org_Admin/Creating_and_managing_distribution_lists.swf" name="Creating & managing distribution lists" />
+			<swf src="swf/Org_Admin/Creating_and_managing_group_mailboxes.swf" name="Creating & managing group mailboxes" />
+		</menu>
+</menu>
+<menu name="Remote user">
+		<swf src="swf/Remote_user/Sending_and_receiving_secure_emails.swf" name="Sending & receiving CJSM" />
+		<swf src="swf/Remote_user/Using_the_CJSM_directory.swf" name="Using the CJSM directory" />
+		<swf src="swf/Remote_user/Importing_contacts_to_use_offline.swf" name="Importing contacts to use offline" />
+		<swf src="swf/Remote_user/Setting_up_a_POP3_connection.swf" name="Setting up a POP3 connection" />
+</menu>
+<menu name="Webmail user">
+		<menu name="Getting started">
+			<swf src="swf/webmail/Logging_into_Webmail.swf" name="Logging into Webmail" />
+			<swf src="swf/webmail/A_tour_of_the_screen.swf" name="A tour of the screen" />
+			<swf src="swf/webmail/New_passwords_and_locked_passwords.swf" name="New passwords and locked passwords" />
+			<swf src="swf/webmail/Sending_an_introduction_to_a_potential_new_user.swf" name="Sending an introduction to a potential new user" />
+		</menu>
+		<menu name="Mail">
+			<swf src="swf/webmail/Creating_&_sending_an_eMail.swf" name="Creating & sending an eMail" />
+			<swf src="swf/webmail/Working_with_multiple_eMails.swf" name="Working with multiple eMails" />
+			<swf src="swf/webmail/Saving_an_eMail_as_a_draft.swf" name="Saving an eMail as a draft" />
+			<swf src="swf/webmail/Working_with_attachments.swf" name="Working with attachments" />
+			<swf src="swf/webmail/Checking_the_spelling_in_an_eMail.swf" name="Check the spelling in an eMail" />
+			<swf src="swf/webmail/Setting_eMail_options.swf" name="Setting eMail options" />
+			<swf src="swf/webmail/Setting_eMail_filters.swf" name="Setting eMail filters" />
+			<swf src="swf/webmail/Deleting_eMail_messages.swf" name="Deleting eMail messages" />
+			<swf src="swf/webmail/Using_the_out_of_office_message.swf" name="Using the out of office message" />
+		</menu>
+		<menu name="Address books">
+			<swf src="swf/webmail/Creating_contacts.swf" name="Creating contacts" />
+			<swf src="swf/webmail/Creating_and_using_personal_groups.swf" name="Creating & using personal groups" />
+			<swf src="swf/webmail/Using_distribution_lists.swf" name="Using distribution lists" />
+			<swf src="swf/webmail/Using_group_mailboxes.swf" name="Using group mailboxes" />
+			<swf src="swf/webmail/Importing_and_exporting_contacts.swf" name="Importing & exporting contacts" />
+		</menu>
+		<menu name="Searching">
+			<swf src="swf/webmail/Finding_messages.swf" name="Finding messages" />
+			<swf src="swf/webmail/Finding_people.swf" name="Finding people" />
+			<swf src="swf/webmail/finding_organisations.swf" name="Finding organisations" />
+			<swf src="swf/webmail/Finding_contacts.swf" name="Finding contacts" />
+		</menu>
+		<menu name="Mailbox management">
+			<swf src="swf/webmail/updating_personal_details.swf" name="Updating personal details & passwords" />
+		<!-- for some reason wasn't picking up solution 1 and 2 correctly - this is demo so hack it like this -->
+			<swf src="swf/webmail/updating_personal_details.swf" name="Updating personal details & passwords" />
+			<swf src="swf/webmail/Managing_folders.swf" name="Solution 1" />
+			<swf src="swf/webmail/Managing_folders2.swf" name="Solution 2" />
+		</menu>
+</menu>
+
+
+</captivate_player>

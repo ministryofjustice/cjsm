@@ -1,0 +1,95 @@
+/*
+------------------------------------------
+CJSM Microsite Form Styles
+Author: David Galovic
+Version: 18/09/2005
+------------------------------------------ */
+
+/* Forms
+------------------------------------------ */
+
+label {
+	width: 180px;
+	vertical-align: text-top;
+	float: left;
+}
+
+.radio-button-set {
+	height: 140px;
+	padding: 10px 0 0 0;
+}
+
+.radio-button-set-small {
+	height: 60px;
+	padding: 10px 0 0 0;
+}
+
+.radio-button-set label, .radio-button-set-small label {
+	float: left;
+}
+
+.radio-button {
+	float: left;
+}
+
+.text-input {
+	width: 180px;
+	margin-bottom: 10px;
+}
+
+.text-area {
+	width: 312px;
+}
+
+.mand-text {
+	font-size: 11px;
+	color: #7C2522;
+}
+
+.mand-text-large {
+	font-size: 14px;
+	color: #7C2522;
+}
+
+.submit-button {
+	margin: 0 0 0 5px;
+	width: 105px;
+	height: 25px;
+}
+
+.reset-button {
+	margin: 0 0 0 8px;
+	width: 105px;
+	height: 25px;
+}
+
+.radio-heading {
+	height: 125px;
+	width: 180px;
+	float: left;
+}
+
+.radio-heading {
+	vertical-align: top;
+}
+
+.radio-heading-small {
+	height: 60px;
+	width: 180px;
+	float: left;
+}
+
+.error {
+	color: #FFF;
+	height: 16px;
+    width: 517px;
+    margin: 0 0 0 -8px;
+    background: url("../images/error_bg.gif") bottom left no-repeat;
+	font-weight: bold;
+    display: block;
+	padding: 8px;
+}
+
+#submit-box { float: left; margin: 0; padding: 0; height: 25px;}
+
+
