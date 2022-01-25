@@ -1,0 +1,25 @@
+# redirect from www.cjsm.justice.gov.uk to cjsm.justice.gov.uk
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: cjsm-prod-www-prod-redirect
+  namespace: cjsm-prod
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    external-dns.alpha.kubernetes.io/set-identifier: cjsm-prod-www-prod-redirect-cjsm-prod-green
+    external-dns.alpha.kubernetes.io/aws-weight: "100"
+    nginx.ingress.kubernetes.io/permanent-redirect: https://cjsm.justice.gov.uk/
+spec:
+  tls:
+  - hosts:
+      - www.cjsm.justice.gov.uk
+    secretName: www-prod-cjsm-tls
+  rules:
+  - host: www.cjsm.justice.gov.uk
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: dunno-service
+          servicePort: 4567
