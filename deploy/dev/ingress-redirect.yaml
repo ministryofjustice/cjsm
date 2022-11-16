@@ -1,16 +1,16 @@
 # redirect from www.dev.cjsm.justice.gov.uk to dev.cjsm.justice.gov.uk
 ---
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: cjsm-dev-www-dev-redirect
   namespace: cjsm-dev
   annotations:
-    kubernetes.io/ingress.class: nginx
     external-dns.alpha.kubernetes.io/set-identifier: cjsm-dev-www-dev-redirect-cjsm-dev-green
     external-dns.alpha.kubernetes.io/aws-weight: "100"
     nginx.ingress.kubernetes.io/permanent-redirect: https://dev.cjsm.justice.gov.uk/
 spec:
+  ingressClassName: modsec
   tls:
   - hosts:
       - www.dev.cjsm.justice.gov.uk
@@ -20,6 +20,9 @@ spec:
     http:
       paths:
       - path: /
+        pathType: ImplementationSpecific
         backend:
-          serviceName: dunno-service
-          servicePort: 4567
+          service:
+            name: dunno-service
+            port: 
+              number: 4567
