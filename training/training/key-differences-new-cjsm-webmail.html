@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="">
 
 <head>
     <title>CJSM - Training | Key Differences in the new CJSM webmail</title>
 
     <link rel="stylesheet" type="text/css" media="all" href="../../css/stopFOUC.css"/>
-    <style type="text/css" media="all">@import "../../css/master.css";</style>
-    <link rel="stylesheet" type="text/css" media="all" href="../../css/custom.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/master.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="https://vjs.zencdn.net/8.16.0/video-js.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/custom.css" />
+
     <script type="application/javascript" async src="../../js/gtag_cjsm.js"></script>
+    <script src="https://vjs.zencdn.net/8.16.0/video.min.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
     <meta http-equiv="Content-Language" content="en-us"/>
@@ -35,7 +38,8 @@
                 <div id="vertical-menu">
                     <ul>
                         <li>
-                            <a href="https://www.cjsm.net/" target="_blank" title="Signing up">Sign in or Register &gt;</a></li>
+                            <a href="https://www.cjsm.net/" target="_blank" title="Signing up">Sign in or Register
+                                &gt;</a></li>
                         <!-- <li><a href="training/index.html" title="Training">Terms &gt;</a></li> -->
                     </ul>
                 </div>
@@ -74,57 +78,31 @@
         <div class="innerwrap">
 
             <div id="content" class="content row pushtop">
-
                 <div class="three-thirds">
-                    <p><a href="../../what/index.html" title="Back to Server or webmail">< Back to Server or webmail</a>
+                    <p>
+                        <a href="../../what/index.html" title="Back to Server or webmail">< Back to Server or
+                            webmail</a>
                     </p>
 
-                    <h1><span>Server or webmail</span>New CJSM webmail: key differences</h1>
+                    <h1><span>Server or webmail</span>New CJSM webmail: Key Differences</h1>
 
-                    <video autoplay id="cjsm-video" class="video-js" controls preload="auto" data-setup="{}">
-                        <source src="videos/1.1.0_new_webmail_key_differences.mp4" type='video/mp4'>
-                        <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a web browser that
-                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                        </p>
+                    <video class="video-js" id="cjsm-video" controls>
+                        <source src="videos/1.1.0_new_webmail_key_differences.mp4">
                     </video>
-
-                    <script src="https://vjs.zencdn.net/6.4.0/video.js"></script>
-
-
-                    <!-- <div class="training_main">
-                        <div class="training_column">
-                            <p style="margin-top: 8px;font-size: 18px">&#x21e6; <a style="font-size: 18px;" href="index.html">Back</a></p>
-
-                                <div id="training_main_block">
-                                    <h1>Logging into and out of webmail</h1>
-
-                                    <video autoplay id="cjsm-video" class="video-js" controls preload="auto" width="1280" height="720" data-setup="{}">
-                                    <source src="videos/1.1.1 Logging into and out of webmail_resize.mp4" type='video/mp4'>
-                                    <p class="vjs-no-js">
-                                    To view this video please enable JavaScript, and consider upgrading to a web browser that
-                                    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                                    </p>
-                                    </video>
-
-                                    <script src="http://vjs.zencdn.net/6.4.0/video.js"></script>
-
-                                </div>
-                        </div>
-                    </div> -->
-
+                    <script type="application/javascript">
+                      let player = videojs('cjsm-video', {
+                        autoplay: 'muted'
+                      })
+                    </script>
 
                 </div>
-
-
             </div>
-
         </div>
-
 
         <div id="footernav">
             <ul>
-                <li><a accesskey="p" id="footernav-copyright" href="../../copyright.html" title="Copyright">Copyright</a>
+                <li><a accesskey="p" id="footernav-copyright" href="../../copyright.html"
+                       title="Copyright">Copyright</a>
                     &nbsp;|&nbsp;&nbsp;
                 </li>
                 <li><a accesskey="v" id="footernav-privacy" href="../../privacy_policy.html" title="Privacy policy">Privacy

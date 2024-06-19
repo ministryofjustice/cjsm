@@ -39,6 +39,7 @@ p a {
 .vjs-tech,
 .video-js {
     width: 100% !important;
+    height: 460px
 }
 
 .flush {
